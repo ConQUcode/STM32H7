@@ -30,22 +30,17 @@ Build target 'STM32H7'
 compiling dji_motor.c...
 ../BSP/bsp_dwt.h(88): warning:  #1-D: last line of file ends without a newline
   #endif // BSP_DWT_H
-..\MOUDLE\motor\motor_def.h(102): error:  #20: identifier "PIDInstance" is undefined
-      PIDInstance angle_PID;
-..\MOUDLE\motor\motor_def.h(103): error:  #20: identifier "PIDInstance" is undefined
-      PIDInstance speed_PID;
-..\MOUDLE\motor\motor_def.h(104): error:  #20: identifier "PIDInstance" is undefined
-      PIDInstance current_PID;
 ..\MOUDLE\motor\motor_def.h(136): warning:  #1-D: last line of file ends without a newline
   #endif // MOTOR_DEF_H
-..\MOUDLE\motor\dji_motor.h(58): error:  #20: identifier "Daemon_Instance" is undefined
-      Daemon_Instance *daemon;
 ..\MOUDLE\motor\dji_motor.h(136): warning:  #1-D: last line of file ends without a newline
   #endif // DJI_MOTOR_H
-..\MOUDLE\motor\dji_motor.c(2): error:  #5: cannot open source input file "general_def.h": No such file or directory
-  #include "general_def.h"
-..\MOUDLE\motor\dji_motor.c: 3 warnings, 5 errors
-"STM32H7\STM32H7.axf" - 5 Error(s), 3 Warning(s).
+..\MOUDLE\motor\dji_motor.c(370): warning:  #1-D: last line of file ends without a newline
+  }
+..\MOUDLE\motor\dji_motor.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=9300 RO-data=804 RW-data=24 ZI-data=1952  
+FromELF: creating hex file...
+"STM32H7\STM32H7.axf" - 0 Error(s), 4 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -68,8 +63,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Target not created.
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

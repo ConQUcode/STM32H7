@@ -99,9 +99,9 @@ typedef struct
 /* 电机控制器,包括其他来源的反馈数据指针,3环控制器和电机的参考输入*/
 typedef struct
 {
-    PIDInstance angle_PID;
-    PIDInstance speed_PID;
-    PIDInstance current_PID;
+    PID_Instance angle_PID;
+    PID_Instance speed_PID;
+    PID_Instance current_PID;
 
     float *other_angle_feedback_ptr;
     float *other_speed_feedback_ptr;

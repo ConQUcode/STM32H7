@@ -27,6 +27,9 @@
 "stm32h7\system_stm32h7xx.o"
 "stm32h7\bsp_fdcan.o"
 "stm32h7\bsp_dwt.o"
+"stm32h7\dji_motor.o"
+"stm32h7\controller.o"
+"stm32h7\daemon.o"
 --strict --scatter "STM32H7\STM32H7.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

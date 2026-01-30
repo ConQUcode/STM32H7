@@ -16,7 +16,7 @@
 #include "controller.h"
 #include "motor_def.h"
 #include "stdint.h"
-//#include "daemon.h"
+#include "daemon.h"
 
 #define DJI_MOTOR_CNT 12 // DJI电机数量
 

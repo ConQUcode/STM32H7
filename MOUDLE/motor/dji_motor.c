@@ -1,7 +1,7 @@
 #include "dji_motor.h"
 #include "general_def.h"
 #include "bsp_dwt.h"
-#include "memory.h"
+//#include "memory.h"
 #include "stdlib.h"
 
 /* ---------------------------------------- 私有函数声明  ------------------------------------- */

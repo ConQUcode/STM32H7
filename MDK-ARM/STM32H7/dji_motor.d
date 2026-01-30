@@ -41,3 +41,5 @@ stm32h7\dji_motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 stm32h7\dji_motor.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 stm32h7\dji_motor.o: ../BSP/bsp_dwt.h
 stm32h7\dji_motor.o: ..\MOUDLE\motor\motor_def.h
+stm32h7\dji_motor.o: ..\MOUDLE\daemon\daemon.h
+stm32h7\dji_motor.o: ..\MOUDLE\general_def.h

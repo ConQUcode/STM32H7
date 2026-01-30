@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_PWR_LDO_SUPPLY,USE_HAL_DRIVER,STM32H750xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include;../BSP;..\MOUDLE\algorithm;..\MOUDLE\motor</IncludePath>
+              <IncludePath>../Core/Inc;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Device/ST/STM32H7xx/Include;C:/Users/11737/STM32Cube/Repository/STM32Cube_FW_H7_V1.12.1/Drivers/CMSIS/Include;../BSP;..\MOUDLE\algorithm;..\MOUDLE\motor;..\MOUDLE\daemon;..\MOUDLE</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -679,6 +679,11 @@
               <FileName>controller.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\MOUDLE\algorithm\controller.c</FilePath>
+            </File>
+            <File>
+              <FileName>daemon.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\MOUDLE\daemon\daemon.c</FilePath>
             </File>
           </Files>
         </Group>
